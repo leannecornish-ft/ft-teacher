@@ -38,9 +38,9 @@ export default function Content({ nextPage }) {
           className="carousel slide row"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner ">
+          <div className="carousel-inner">
             {quotes.map((quote, index) => (
-              <Carousel quote={quote} />
+              <Carousel key={index} quote={quote} />
             ))}
           </div>
           <button
