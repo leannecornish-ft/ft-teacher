@@ -3,7 +3,7 @@ export default function Result() {
 		<>
 			<h1>FT Teacher</h1>
 			<div>Possibly a carousel</div>
-			<p>Some description</p>
+			<p>Result!</p>
 			<button>Start!</button>
 		</>
 	)
