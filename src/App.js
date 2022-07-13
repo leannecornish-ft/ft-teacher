@@ -45,6 +45,18 @@ function App() {
 			case 10: 
 				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
 			case 11: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 12: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 13: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 14: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 15: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 16: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 17:
 				return <Result pageId={page} score={responses.filter(Boolean).length} goToPage={goToPage} />	
 			default:
 				return <Content pageId={page} nextPage={nextPage}/>
