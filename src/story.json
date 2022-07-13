@@ -1,8 +1,11 @@
 [
-<<<<<<< HEAD
   {
-    "title": "ft-teacher",
+    "title": "The Financial literacy game",
     "description": "Financial literacy is the knowledge necessary to make important financial decisions. Saving and investment options are getting more and more complex. We are going to break it down into the basics."
+  },
+  {
+    "title": "Saving 101: Tracking your spending.",
+    "description": "This might come as second nature to some people, but in order to maximise your saving you should minimise your spending. In order to do this, you need to know what you are spending your money on. There are multiple ways to do this: some people look at their bank activities and track them on a spreadsheet, others use mobile apps that integrate with your bank account and categorise spending. You choose your method of tracking your spending!"
   },
   {
     "title": "Investing 101: What is a portfolio?",
@@ -10,15 +13,36 @@
   },
   {
     "title": "Investing 101: What is a stock?",
-    "description": "A stock or a share, is a financial product that represents the ownership of a fraction of the issuing company. \n Profit is determined by the stock growth of the company from the time you invested your money on. \nStocks are considered a high risk high return investment, meaning that could make a lot of money from your initial investment, or lose all your money."
+    "description": "A stock or a share, is a financial product that represents the ownership of a fraction of the issuing company. \n Profit is determined by the stock growth of the company from the time you invested your money on. \n Stocks are considered a high risk high return investment, meaning that could make a lot of money from your initial investment, or lose all your money."
   },
   {
     "title": "Investing 101: What is a bond?",
-    "description": "Governments commonly use bonds in order to borrow money. Bonds are fixed-income financial product, meaning that the issuer (usually the government) will agree on an interest payout at the end of the period (for example, 2% after 2 years). \nBonds are considered a low risk low return investment."
+    "description": "Governments commonly use bonds in order to borrow money. Bonds are fixed-income financial product, meaning that the issuer (usually the government) will agree on an interest payout at the end of the period (for example, 2% after 2 years). \n Bonds are considered a low risk low return investment."
   },
   {
     "title": "Investing 101: Stocks vs Bonds - food for thought",
-    "description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\nIndividual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
+    "description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\n Individual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
+  },
+  {
+    "question": "Which of these is NOT a good way to increase your savings?",
+    "options": [
+      {
+        "name": "Minimise your spending",
+        "correct": false
+      },
+      {
+        "name": "Track your spending",
+        "correct": false
+      },
+      {
+        "name": "Track your expenses with an excel file or an app",
+        "correct": false
+      },
+      {
+        "name": "Maximise your spending at the beginning of the month",
+        "correct": true
+      }
+    ]
   },
   {
     "question": "What is a personal financial portfolio?",
@@ -103,213 +127,80 @@
         "correct": true
       }
     ]
+  },
+  {
+    "title": "Alternative investing: ETFs (Exchange Traded Funds)",
+    "description": "You can think of an ETF as a stock made up of multiple stocks. Instead of investing on one company listed in a stock market, you can make your bet on the stock market as a whole. \n Today, there is a plethora of ETFs to choose from. Some are pegged to the S&P 500 (500 leading publicly traded companies in the U.S), some to the Nasdaq 100 (100 largest U.S companies in the technology sector), some to price of oil, gold, biotech companies…you can even invest on ETFs pegged to the world economy as a whole! \n ETFs were invented by Vanguard in the 1990s. Today, some of the leading providers in low fee ETFs are Vanguard, Fidelity or Invesco."
+  },
+  {
+    "title": "Alternative investing: Investment Funds (Hedge funds, Mutual funds etc)",
+    "description": "Unlike ETFs, hedge funds or mutual funds are not traded publicly. You have to give them your money and they will hand pick a collection of financial products to invest your money on (usually a combination of stocks and bonds). This usually comes with high management fees, given their promises to consistently beat the stock market average."
+  },
+  {
+    "title": "Food for thought: The million dollar bet",
+    "description": "In 2008, Warren Buffett issued a challenge to the hedge fund industry, which in his view charged exorbitant fees that the funds' performances couldn't justify. \n Protégé Partners LLC accepted, and the two parties placed a million-dollar bet. \n Mr Buffet placed his money in a S&P 500 ETF. Protégé Partners LLC used a hand-picked selection of high risk high return investments. \n Mr Buffet won the bet. In fact, the ETF returns consistently beat the hedge fund returns on a year-to-year basis."
+  },
+  {
+    "question": "What is an ETF?",
+    "options": [
+      {
+        "name": "An ETF is a bond",
+        "correct": false
+      },
+      {
+        "name": "An ETF is a stock",
+        "correct": false
+      },
+      {
+        "name": "An ETF is like a publicly traded mutual fund. ETFs are usually pegged to a market index.",
+        "correct": true
+      },
+      {
+        "name": "An ETF is a low interest rate financial product.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these statements is correct?",
+    "options": [
+      {
+        "name": "Mutual funds charge higher fees than ETFs",
+        "correct": true
+      },
+      {
+        "name": "Mutual funds are publicly traded",
+        "correct": false
+      },
+      {
+        "name": "Hedge funds put all your money into bonds",
+        "correct": false
+      },
+      {
+        "name": "Hedge funds put all your money in cryptocurrencies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the million dollar bet?",
+    "options": [
+      {
+        "name": "A horsing bet",
+        "correct": false
+      },
+      {
+        "name": "A bet between a stock and a bond",
+        "correct": false
+      },
+      {
+        "name": "A bet in the casino",
+        "correct": false
+      },
+      {
+        "name": "A bet where ETFs were shown to yield higher returns than hedge funds",
+        "correct": true
+      }
+    ]
   }
 ]
-=======
-	{
-	  "title": "The Financial literacy game",
-	  "description": "Financial literacy is the knowledge necessary to make important financial decisions. Saving and investment options are getting more and more complex. We are going to break it down into the basics."
-	},
-	{
-		"title": "Saving 101: Tracking your spending.",
-		"description": "This might come as second nature to some people, but in order to maximise your saving you should minimise your spending. In order to do this, you need to know what you are spending your money on. There are multiple ways to do this: some people look at their bank activities and track them on a spreadsheet, others use mobile apps that integrate with your bank account and categorise spending. You choose your method of tracking your spending!"
-	},
-	{
-		"title": "Investing 101: What is a portfolio?",
-		"description": "A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents, including exchange traded funds ETFs, which we’ll talk about). People generally believe that stocks, bonds, and cash comprise the core of a portfolio. Though this is often the case, it does not need to be the rule. A portfolio may contain a wide range of assets including real estate, art, and private investments."
-	},
-	{
-		"title": "Investing 101: What is a stock?",
-		"description": "A stock or a share, is a financial product that represents the ownership of a fraction of the issuing company. \n Profit is determined by the stock growth of the company from the time you invested your money on. \n Stocks are considered a high risk high return investment, meaning that could make a lot of money from your initial investment, or lose all your money."
-	},
-	{
-		"title": "Investing 101: What is a bond?",
-		"description": "Governments commonly use bonds in order to borrow money. Bonds are fixed-income financial product, meaning that the issuer (usually the government) will agree on an interest payout at the end of the period (for example, 2% after 2 years). \n Bonds are considered a low risk low return investment."
-	},
-	{
-		"title": "Investing 101: Stocks vs Bonds - food for thought",
-		"description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\n Individual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
-	},
-	{
-		"question": "Which of these is NOT a good way to increase your savings?",
-		"options": [
-		  {
-			"name": "Minimise your spending",
-			"correct": false
-		  },
-		  {
-			"name": "Track your spending",
-			"correct": false
-		  },
-		  {
-			  "name": "Track your expenses with an excel file or an app",
-			  "correct": false
-			},
-			{
-			  "name": "Maximise your spending at the beginning of the month",
-			  "correct": true
-			}
-		]
-	  }
-	,
-	{
-	  "question": "What is a personal financial portfolio?",
-	  "options": [
-		{
-		  "name": "set of laws that define what financial products you can purchase",
-		  "correct": false
-		},
-		{
-		  "name": "the combination of financial assets you invest your money on",
-		  "correct": true
-		},
-		{
-			"name": "interest rate used for bank loans",
-			"correct": false
-		  },
-		  {
-			"name": "the amount of off-shore assets you own at a given time",
-			"correct": false
-		  }
-	  ]
-	},
-	{
-		"question": "Which of the following statements about bonds is NOT correct?",
-		"options": [
-		  {
-			"name": "Bonds are usually issued by the government",
-			"correct": false
-		  },
-		  {
-			"name": "Bonds are considered a low risk low return investment",
-			"correct": false
-		  },
-		  {
-			  "name": "Bonds are considered a low risk high return investment",
-			  "correct": true
-			},
-			{
-			  "name": "Bonds are fixed-income financial product",
-			  "correct": false
-			}
-		]
-	},
-	{
-		"question": "Which of the following statements about stocks is NOT correct?",
-		"options": [
-		  {
-			"name": "Stocks are traded publicly on the stock market.",
-			"correct": false
-		  },
-		  {
-			"name": "Stocks are lower in risk than bonds",
-			"correct": true
-		  },
-		  {
-			  "name": "Stocks are issued by companies to raise funds to operate their businesses",
-			  "correct": false
-			},
-			{
-			  "name": "Owning a stock issued by a company means the holder has some ownership of of the issuing company.",
-			  "correct": false
-			}
-		]
-	},
-	{
-		"question": "Which of the following statements about investing is correct?",
-		"options": [
-		  {
-			"name": "Bonds are lower in risk than stocks",
-			"correct": false
-		  },
-		  {
-			"name": "Portfolios are only made up of stocks and bonds",
-			"correct": false
-		  },
-		  {
-			  "name": "A portfolio issued by a company means the holder has some ownership of of the issuing company",
-			  "correct": false
-			},
-			{
-			  "name": "Younger investors tend to invest more in the stock market and less on bonds.",
-			  "correct": true
-			}
-		]
-	},
-	{
-		"title": "Alternative investing: ETFs (Exchange Traded Funds)",
-		"description": "You can think of an ETF as a stock made up of multiple stocks. Instead of investing on one company listed in a stock market, you can make your bet on the stock market as a whole. \n Today, there is a plethora of ETFs to choose from. Some are pegged to the S&P 500 (500 leading publicly traded companies in the U.S), some to the Nasdaq 100 (100 largest U.S companies in the technology sector), some to price of oil, gold, biotech companies…you can even invest on ETFs pegged to the world economy as a whole! \n ETFs were invented by Vanguard in the 1990s. Today, some of the leading providers in low fee ETFs are Vanguard, Fidelity or Invesco."
-	},
-	{
-		"title": "Alternative investing: Investment Funds (Hedge funds, Mutual funds etc)",
-		"description": "Unlike ETFs, hedge funds or mutual funds are not traded publicly. You have to give them your money and they will hand pick a collection of financial products to invest your money on (usually a combination of stocks and bonds). This usually comes with high management fees, given their promises to consistently beat the stock market average."
-	},
-	{
-		"title": "Food for thought: The million dollar bet",
-		"description": "In 2008, Warren Buffett issued a challenge to the hedge fund industry, which in his view charged exorbitant fees that the funds' performances couldn't justify. \n Protégé Partners LLC accepted, and the two parties placed a million-dollar bet. \n Mr Buffet placed his money in a S&P 500 ETF. Protégé Partners LLC used a hand-picked selection of high risk high return investments. \n Mr Buffet won the bet. In fact, the ETF returns consistently beat the hedge fund returns on a year-to-year basis."
-	},
-	{
-		"question": "What is an ETF?",
-		"options": [
-		  {
-			"name": "An ETF is a bond",
-			"correct": false
-		  },
-		  {
-			"name": "An ETF is a stock",
-			"correct": false
-		  },
-		  {
-			  "name": "An ETF is like a publicly traded mutual fund. ETFs are usually pegged to a market index.",
-			  "correct": true
-			},
-			{
-			  "name": "An ETF is a low interest rate financial product.",
-			  "correct": false
-			}
-		]
-	},
-	{
-		"question": "Which of these statements is correct?",
-		"options": [
-		  {
-			"name": "Mutual funds charge higher fees than ETFs",
-			"correct": true
-		  },
-		  {
-			"name": "Mutual funds are publicly traded",
-			"correct": false
-		  },
-		  {
-			  "name": "Hedge funds put all your money into bonds",
-			  "correct": false
-			},
-			{
-			  "name": "Hedge funds put all your money in cryptocurrencies",
-			  "correct": false
-			}
-		]
-	},
-	{
-		"question": "What is the million dollar bet?",
-		"options": [
-		  {
-			"name": "A horsing bet",
-			"correct": false
-		  },
-		  {
-			"name": "A bet between a stock and a bond",
-			"correct": false
-		  },
-		  {
-			  "name": "A bet in the casino",
-			  "correct": false
-			},
-			{
-			  "name": "A bet where ETFs were shown to yield higher returns than hedge funds",
-			  "correct": true
-			}
-		]
-	}
-]
->>>>>>> 8beac6f68bdca2a29c6d78a2afbe53e7df99826b
