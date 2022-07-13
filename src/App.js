@@ -19,7 +19,7 @@ function App() {
 			case 1: 
 				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>	
 			case 2: 
-				return <Result pageId={page}/>	
+				return <Result pageId={page} score={responses.filter(Boolean).length}/>	
 			default:
 				return <Content pageId={page}/>
 		}
