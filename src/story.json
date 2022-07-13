@@ -1,1 +1,27 @@
-[{"title": "ft-teacher", "description": "Financial literacy is the knowledge necessary to make important financial decisions. Saving and investment options are getting more and more complex. We are going to break it down into the basics."}, {"question": "What is a personal financial portfolio?", "options": [{"name": "set of laws that define what financial products you can purchase", "correct": false}, {"name": "the combination of financial assets you invest your money on", "correct": true}]}, {"name": "interest rate used for bank credits", "correct": false}, {"name": "the amount of off-shore assets you own at a given time", "correct": false}]
+[
+	{
+	  "title": "ft-teacher",
+	  "description": "Financial literacy is the knowledge necessary to make important financial decisions. Saving and investment options are getting more and more complex. We are going to break it down into the basics."
+	},
+	{
+	  "question": "What is a personal financial portfolio?",
+	  "options": [
+		{
+		  "name": "set of laws that define what financial products you can purchase",
+		  "correct": false
+		},
+		{
+		  "name": "the combination of financial assets you invest your money on",
+		  "correct": true
+		}
+	  ]
+	},
+	{
+	  "name": "interest rate used for bank credits",
+	  "correct": false
+	},
+	{
+	  "name": "the amount of off-shore assets you own at a given time",
+	  "correct": false
+	}
+  ]
