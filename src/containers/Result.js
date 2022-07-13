@@ -3,8 +3,12 @@ import Button from "../components/Button";
 export default function Result({score, goToPage }) {
 
 	function scoreband(lower, upper) {
-		if (score > lower && score < upper) {
-			return "correct-scoreband"
+		if (score > lower && score < upper && (lower >= 3)) {
+			return "correct-scoreband-high"
+		} else if (score > lower && score < upper && (lower === 2)){
+			return "correct-scoreband-mid"
+		} else if  (score > lower && score < upper) {
+			return "correct-scoreband-low"
 		} else {
 			return "incorrect-scoreband"
 		}
