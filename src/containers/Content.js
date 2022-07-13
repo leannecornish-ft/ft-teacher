@@ -1,7 +1,8 @@
+import story from "../story.json";
 import Button from "../components/Button";
 import Carousel from "../components/Carousel";
 
-export default function Content({ nextPage }) {
+export default function Content({ nextPage, pageId }) {
   const quotes = [
     {
       id: 1,
@@ -69,8 +70,9 @@ export default function Content({ nextPage }) {
           </button>
         </div>
       </div>
-      <p>Some description</p>
-      <Button onClick={nextPage} text={"Start"} />
+      <h2>{story[pageId].title}</h2>
+      <p>{story[pageId].description}</p>
+      <Button onClick={() => nextPage()} text={"Next"} />
     </>
   );
 }

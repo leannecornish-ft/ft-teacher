@@ -9,7 +9,15 @@ function App() {
 	const [responses, setResponses] = useState([]);
 
 	function nextPage() {
+		console.log('calling nextPage')
+		console.log(page)
 		setPage(page + 1)
+	}
+
+	function goToPage(pageId) {
+		return function () {
+			setPage(pageId)
+		}
 	}
 
 	function renderPage() {
@@ -17,11 +25,41 @@ function App() {
 			case 0: 
 				return <Content pageId={page} nextPage={nextPage}/>
 			case 1: 
-				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>	
+				return <Content pageId={page} nextPage={nextPage}/>
 			case 2: 
-				return <Result pageId={page} score={responses.filter(Boolean).length}/>	
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 3: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 4: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 5: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 6: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 7: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 8: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 9: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 10: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 11: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 12: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 13: 
+				return <Content pageId={page} nextPage={nextPage}/>
+			case 14: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 15: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 16: 
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>
+			case 17:
+				return <Result pageId={page} score={responses.filter(Boolean).length} goToPage={goToPage} />	
 			default:
-				return <Content pageId={page}/>
+				return <Content pageId={page} nextPage={nextPage}/>
 		}
 	}
 

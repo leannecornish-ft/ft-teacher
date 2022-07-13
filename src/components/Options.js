@@ -1,8 +1,7 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./Options.scss"
 
-export default function Options({choices = [], questionId, responses, setResponses}) {
-	const [selected, setSelected] = useState();
+export default function Options({choices = [], questionId, responses, setResponses, selected, setSelected}) {
 	const correctIndex = choices.findIndex(choice => choice.correct);
 
 	function onChange(event) {
@@ -22,8 +21,8 @@ export default function Options({choices = [], questionId, responses, setRespons
 				{choices.map((choice, index) => {
 					return (
 						<label key={index} className={selected === index ? extraClass : ''}>
-							<input type="radio" name="default" value={index} onChange={onChange} disabled={selected !== undefined}/>
-							<span class="o-forms-input__label">{choice.name}</span>
+							<input type="radio" name="default" value={index} onChange={onChange} disabled={selected !== undefined} checked={selected === index} />
+							<span className={`o-forms-input__label ${selected !== undefined && choice.correct ? 'label-correct': ''}`}>{choice.name}</span>
 						</label>
 					)
 				})}
