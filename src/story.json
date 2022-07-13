@@ -9,19 +9,15 @@
 	},
 	{
 		"title": "Investing 101: What is a stock?",
-		"description": "A stock or a share, is a financial product that represents the ownership of a fraction of the issuing company. \n
-		Profit is determined by the stock growth of the company from the time you invested your money on. \n
-		Stocks are considered a high risk high return investment, meaning that could make a lot of money from your initial investment, or lose all your money."
+		"description": "A stock or a share, is a financial product that represents the ownership of a fraction of the issuing company. \n Profit is determined by the stock growth of the company from the time you invested your money on. \n Stocks are considered a high risk high return investment, meaning that could make a lot of money from your initial investment, or lose all your money."
 	},
 	{
 		"title": "Investing 101: What is a bond?",
-		"description": "Governments commonly use bonds in order to borrow money. Bonds are fixed-income financial product, meaning that the issuer (usually the government) will agree on an interest payout at the end of the period (for example, 2% after 2 years). \n
-		Bonds are considered a low risk low return investment."
+		"description": "Governments commonly use bonds in order to borrow money. Bonds are fixed-income financial product, meaning that the issuer (usually the government) will agree on an interest payout at the end of the period (for example, 2% after 2 years). \n Bonds are considered a low risk low return investment."
 	},
 	{
 		"title": "Investing 101: Stocks vs Bonds - food for thought",
-		"description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\n
-		Individual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
+		"description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\n Individual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
 	},
 	{
 	  "question": "What is a personal financial portfolio?",
