@@ -1,0 +1,27 @@
+$system-code: 'ft-teacher';
+@import "@financial-times/o-header/main";
+@import "@financial-times/o-buttons/main";
+@import "@financial-times/o-colors/main";
+@import "@financial-times/o-typography/main";
+@import "@financial-times/o-forms/main";
+
+@include oHeader();
+@include oButtons();
+@include oColors();
+@include oTypography();
+@include oForms();
+
+body {
+  margin: 0;
+  @include oTypographySans();
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background-color: oColorsByName('paper');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
