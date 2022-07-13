@@ -9,19 +9,21 @@ function App() {
 	const [responses, setResponses] = useState([]);
 
 	function nextPage() {
+		console.log('calling nextPage')
+		console.log(page)
 		setPage(page + 1)
 	}
 
 	function renderPage() {
 		switch(page) {
-			case 0: 
+			case 0 <= page <= 4: 
 				return <Content pageId={page} nextPage={nextPage}/>
-			case 1: 
+			case 5 || 6 || 7 || 8: 
 				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>	
-			case 2: 
-				return <Result pageId={page} score={responses.filter(Boolean).length}/>	
+			// case 2: 
+			// 	return <Result pageId={page} score={responses.filter(Boolean).length}/>	
 			default:
-				return <Content pageId={page}/>
+				return <Content pageId={page} nextPage={nextPage}/>
 		}
 	}
 
