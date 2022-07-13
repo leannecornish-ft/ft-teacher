@@ -22,7 +22,7 @@ export default function Options({choices = [], questionId, responses, setRespons
 					return (
 						<label key={index} className={selected === index ? extraClass : ''}>
 							<input type="radio" name="default" value={index} onChange={onChange} disabled={selected !== undefined} checked={selected === index} />
-							<span class="o-forms-input__label">{choice.name}</span>
+							<span className={`o-forms-input__label ${selected !== undefined && choice.correct ? 'label-correct': ''}`}>{choice.name}</span>
 						</label>
 					)
 				})}
