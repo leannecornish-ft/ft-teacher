@@ -32,44 +32,46 @@ export default function Content({ nextPage, pageId }) {
   return (
     <>
       <div className="row mt-5 ">
-        <div className="container-fluid mt-5">
-          <h2 className="">Fino Lingo</h2>
-          <div
-            id="carouselExampleControls"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-inner">
-              {quotes.map((quote, index) => (
-                <Carousel key={index} quote={quote} />
-              ))}
+        {pageId === 0 && (
+          <div className="container-fluid mt-5">
+            <h2 className="">Fino Lingo</h2>
+            <div
+              id="carouselExampleControls"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                {quotes.map((quote, index) => (
+                  <Carousel key={index} quote={quote} />
+                ))}
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
             </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
           </div>
-        </div>
+        )}
         <h2>{story[pageId].title}</h2>
         <p>{story[pageId].description}</p>
         <Button onClick={() => nextPage()} text={"Next"} />
