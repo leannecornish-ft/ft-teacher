@@ -15,13 +15,13 @@ function App() {
 	function renderPage() {
 		switch(page) {
 			case 0: 
-				return <Content nextPage={nextPage}/>
+				return <Content pageId={page} nextPage={nextPage}/>
 			case 1: 
-				return <Quiz />	
+				return <Quiz pageId={page}/>	
 			case 2: 
-				return <Result />	
+				return <Result pageId={page}/>	
 			default:
-				return <Content />
+				return <Content pageId={page}/>
 		}
 	}
 
