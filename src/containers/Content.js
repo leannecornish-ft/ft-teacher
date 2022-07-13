@@ -29,10 +29,12 @@ export default function Content({ nextPage, pageId }) {
       author: "Jim kwik",
     },
   ];
+  console.log(
+    quotes.map((quote, index) => <Carousel key={index} quote={quote} />)
+  );
   return (
     <>
-      <h1>FT Teacher</h1>
-      {/* <div>Possibly a carousel</div> */}
+      {/* <h1>Fino Lingo</h1> */}
       <div className="container">
         <div
           id="carouselExampleControls"
