@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import { useState } from 'react';
 import Content from './containers/Content';
@@ -7,6 +6,7 @@ import Result from './containers/Result';
 
 function App() {
 	const [page, setPage] = useState(0);
+	const [responses, setResponses] = useState([]);
 
 	function nextPage() {
 		setPage(page + 1)
@@ -17,9 +17,9 @@ function App() {
 			case 0: 
 				return <Content pageId={page} nextPage={nextPage}/>
 			case 1: 
-				return <Quiz pageId={page}/>	
+				return <Quiz pageId={page} responses={responses} setResponses={setResponses} nextPage={nextPage}/>	
 			case 2: 
-				return <Result pageId={page}/>	
+				return <Result pageId={page} score={responses.filter(Boolean).length}/>	
 			default:
 				return <Content pageId={page}/>
 		}
