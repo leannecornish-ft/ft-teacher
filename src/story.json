@@ -128,5 +128,80 @@
 			  "correct": true
 			}
 		]
+	},
+	{
+		"title": "Alternative investing: ETFs (Exchange Traded Funds)",
+		"description": "You can think of an ETF as a stock made up of multiple stocks. Instead of investing on one company listed in a stock market, you can make your bet on the stock market as a whole. \n Today, there is a plethora of ETFs to choose from. Some are pegged to the S&P 500 (500 leading publicly traded companies in the U.S), some to the Nasdaq 100 (100 largest U.S companies in the technology sector), some to price of oil, gold, biotech companies…you can even invest on ETFs pegged to the world economy as a whole! \n ETFs were invented by Vanguard in the 1990s. Today, some of the leading providers in low fee ETFs are Vanguard, Fidelity or Invesco."
+	},
+	{
+		"title": "Alternative investing: Investment Funds (Hedge funds, Mutual funds etc)",
+		"description": "Unlike ETFs, hedge funds or mutual funds are not traded publicly. You have to give them your money and they will hand pick a collection of financial products to invest your money on (usually a combination of stocks and bonds). This usually comes with high management fees, given their promises to consistently beat the stock market average."
+	},
+	{
+		"title": "Food for thought: The million dollar bet",
+		"description": "In 2008, Warren Buffett issued a challenge to the hedge fund industry, which in his view charged exorbitant fees that the funds' performances couldn't justify. \n Protégé Partners LLC accepted, and the two parties placed a million-dollar bet. \n Mr Buffet placed his money in a S&P 500 ETF. Protégé Partners LLC used a hand-picked selection of high risk high return investments. \n Mr Buffet won the bet. In fact, the ETF returns consistently beat the hedge fund returns on a year-to-year basis."
+	},
+	{
+		"question": "What is an ETF?",
+		"options": [
+		  {
+			"name": "An ETF is a bond",
+			"correct": false
+		  },
+		  {
+			"name": "An ETF is a stock",
+			"correct": false
+		  },
+		  {
+			  "name": "An ETF is like a publicly traded mutual fund. ETFs are usually pegged to a market index.",
+			  "correct": true
+			},
+			{
+			  "name": "An ETF is a low interest rate financial product.",
+			  "correct": false
+			}
+		]
+	},
+	{
+		"question": "Which of these statements is correct?",
+		"options": [
+		  {
+			"name": "Mutual funds charge higher fees than ETFs",
+			"correct": true
+		  },
+		  {
+			"name": "Mutual funds are publicly traded",
+			"correct": false
+		  },
+		  {
+			  "name": "Hedge funds put all your money into bonds",
+			  "correct": false
+			},
+			{
+			  "name": "Hedge funds put all your money in cryptocurrencies",
+			  "correct": false
+			}
+		]
+	},
+	{
+		"question": "What is the million dollar bet?",
+		"options": [
+		  {
+			"name": "A horsing bet",
+			"correct": false
+		  },
+		  {
+			"name": "A bet between a stock and a bond",
+			"correct": false
+		  },
+		  {
+			  "name": "A bet in the casino",
+			  "correct": false
+			},
+			{
+			  "name": "A bet where ETFs were shown to yield higher returns than hedge funds",
+			  "correct": true
+			}
+		]
 	}
 ]
