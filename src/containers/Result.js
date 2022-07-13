@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 
-export default function Result({score}) {
+export default function Result({score, goToPage }) {
 
 	function scoreband(lower, upper) {
 		if (score > lower && score < upper) {
@@ -16,7 +16,7 @@ export default function Result({score}) {
 			<p className={scoreband(3, 5)}>4 - Solid effort</p>
 			<p className={scoreband(2, 4)}>3 - Could do better</p>
 			<p className={scoreband(0, 3)}>less than 3 - maybe worth revisting</p>
-			<Button text={"Return to start"} />
+			<Button text={"Return to start"} onClick={goToPage(0)} />
 		</>
 	)
 }

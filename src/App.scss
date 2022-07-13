@@ -45,3 +45,11 @@
 .incorrect-scoreband {
   opacity: 20%
 }
+
+main {
+	padding: 0 2em;
+	height: calc(100vh - 200px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around
+}
