@@ -1,7 +1,11 @@
 [
 	{
-	  "title": "ft-teacher",
+	  "title": "Fino Lingo",
 	  "description": "Financial literacy is the knowledge necessary to make important financial decisions. Saving and investment options are getting more and more complex. We are going to break it down into the basics."
+	},
+	{
+		"title": "Saving 101: Tracking your spending.",
+		"description": "This might come as second nature to some people, but in order to maximise your saving you should minimise your spending. In order to do this, you need to know what you are spending your money on. There are multiple ways to do this: some people look at their bank activities and track them on a spreadsheet, others use mobile apps that integrate with your bank account and categorise spending. You choose your method of tracking your spending!"
 	},
 	{
 		"title": "Investing 101: What is a portfolio?",
@@ -19,6 +23,28 @@
 		"title": "Investing 101: Stocks vs Bonds - food for thought",
 		"description": "Since bonds are low in risk and return, they are usually preferable for older people close to retirement.\n Individual stocks are higher in both risk and return so they are more appealing for younger investors. However, the stock market as a whole has proven to consistently grow over time. In the next section, we will see how you can invest in the stock market with reduced risk by using ETFs."
 	},
+	{
+		"question": "Which of these is NOT a good way to increase your savings?",
+		"options": [
+		  {
+			"name": "Minimise your spending",
+			"correct": false
+		  },
+		  {
+			"name": "Track your spending",
+			"correct": false
+		  },
+		  {
+			  "name": "Track your expenses with an excel file or an app",
+			  "correct": false
+			},
+			{
+			  "name": "Maximise your spending at the beginning of the month",
+			  "correct": true
+			}
+		]
+	  }
+	,
 	{
 	  "question": "What is a personal financial portfolio?",
 	  "options": [
