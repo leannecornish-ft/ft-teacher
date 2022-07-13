@@ -13,15 +13,15 @@
 		{
 		  "name": "the combination of financial assets you invest your money on",
 		  "correct": true
-		}
+		},
+		{
+			"name": "interest rate used for bank credits",
+			"correct": false
+		  },
+		  {
+			"name": "the amount of off-shore assets you own at a given time",
+			"correct": false
+		  }
 	  ]
-	},
-	{
-	  "name": "interest rate used for bank credits",
-	  "correct": false
-	},
-	{
-	  "name": "the amount of off-shore assets you own at a given time",
-	  "correct": false
 	}
-  ]
+]
