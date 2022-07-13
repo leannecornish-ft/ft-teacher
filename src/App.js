@@ -80,39 +80,6 @@ function App() {
           />
         );
       case 11:
-        return <Content pageId={page} nextPage={nextPage} />;
-      case 12:
-        return <Content pageId={page} nextPage={nextPage} />;
-      case 13:
-        return <Content pageId={page} nextPage={nextPage} />;
-      case 14:
-        return (
-          <Quiz
-            pageId={page}
-            responses={responses}
-            setResponses={setResponses}
-            nextPage={nextPage}
-          />
-        );
-      case 15:
-        return (
-          <Quiz
-            pageId={page}
-            responses={responses}
-            setResponses={setResponses}
-            nextPage={nextPage}
-          />
-        );
-      case 16:
-        return (
-          <Quiz
-            pageId={page}
-            responses={responses}
-            setResponses={setResponses}
-            nextPage={nextPage}
-          />
-        );
-      case 17:
         return (
           <Result
             pageId={page}
@@ -137,7 +104,7 @@ function App() {
                   href="/"
                   title="Go to Financial Times homepage"
                 >
-                  <span class="o-header__visually-hidden">Fino Lingo</span>
+                  <span class="o-header__visually-hidden">Financial Times</span>
                 </a>
               </div>
             </div>
